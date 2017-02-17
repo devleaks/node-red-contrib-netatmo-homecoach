@@ -1,0 +1,32 @@
+{
+  "name": "node-red-contrib-netatmo-homecoach",
+  "version": "1.0.0",
+  "description": "A node-red to interact with Netatmo Healthy Home Coach",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devleaks/node-red-contrib-netatmo-homecoach.git"
+  },
+  "author": "Pierre M",
+  "bugs": {
+    "url": "https://github.com/devleaks/node-red-contrib-netatmo-homecoach/issues"
+  },
+  "homepage": "https://github.com/devleaks/node-red-contrib-netatmo-homecoach#readme",
+  "dependencies": {
+    "dateformat": "^2.0.0",
+    "netatmo": "^2.0.0",
+    "node-red-contrib-netatmo-thermostat": "^0.1.4"
+  },
+  "keywords": [
+  "node-red",
+  "netatmo",
+  "homecoach",
+  "iot"
+  ],
+  "license": "MIT",
+  "node-red" : {
+    "nodes" : {
+      "netatmo_get_homecoachs": "netatmo_node_get_homecoaches.js",
+    }
+  }
+}
