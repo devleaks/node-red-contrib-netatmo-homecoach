@@ -1,7 +1,7 @@
 {
   "name": "node-red-contrib-netatmo-homecoach",
   "version": "1.0.0",
-  "description": "A node-red to interact with Netatmo Healthy Home Coach",
+  "description": "A node-red to collect data from Netatmo Healthy Home Coaches",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -14,13 +14,13 @@
   "homepage": "https://github.com/devleaks/node-red-contrib-netatmo-homecoach#readme",
   "dependencies": {
     "dateformat": "^2.0.0",
-    "netatmo": "^2.0.0",
+    "netatmo": "^2.1.0",
     "node-red-contrib-netatmo-thermostat": "^0.1.4"
   },
   "keywords": [
   "node-red",
   "netatmo",
-  "homecoach",
+  "healthyhomecoach",
   "iot"
   ],
   "license": "MIT",
