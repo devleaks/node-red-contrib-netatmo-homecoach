@@ -14,19 +14,20 @@
   "homepage": "https://github.com/devleaks/node-red-contrib-netatmo-homecoach#readme",
   "dependencies": {
     "dateformat": "^2.0.0",
+    "mustache": "^2.3.0",
     "netatmo": "^2.1.0",
     "node-red-contrib-netatmo-thermostat": "^0.1.4"
   },
   "keywords": [
-  "node-red",
-  "netatmo",
-  "healthyhomecoach",
-  "iot"
+    "node-red",
+    "netatmo",
+    "healthyhomecoach",
+    "iot"
   ],
   "license": "MIT",
-  "node-red" : {
-    "nodes" : {
-      "netatmo_get_homecoachs": "netatmo_node_get_homecoaches.js",
+  "node-red": {
+    "nodes": {
+      "netatmo_get_homecoachs": "netatmo_node_get_homecoaches.js"
     }
   }
 }
