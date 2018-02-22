@@ -1,6 +1,6 @@
 {
   "name": "node-red-contrib-netatmo-homecoach",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A node-red to collect data from Netatmo Healthy Home Coaches",
   "main": "index.js",
   "repository": {
