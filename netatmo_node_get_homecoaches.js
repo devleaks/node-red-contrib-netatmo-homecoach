@@ -28,12 +28,13 @@ module.exports = function(RED) {
 
             var dateFormat = require('dateformat');
 
-            var auth = {
-                "client_id": this.creds.client_id,
-                "client_secret": this.creds.client_secret,
-                "username": this.creds.username,
-                "password": this.creds.password
+            const auth = {
+                "client_id": this.creds.credentials.client_id,
+                "client_secret": this.creds.credentials.client_secret,
+                "username": this.creds.credentials.username, 
+                "password": this.creds.credentials.password
             };
+            
             var api = new netatmo(auth);
             api.getHealthyHomeCoachData(function(err, devices) {
                 console.log(dateFormat(new Date(), "dd mmm HH:MM:ss") + " - [info] [node-red-contrib-netatmo-healthyhomecoach] getHealthyHomeCoachData > OK");
